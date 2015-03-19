@@ -40,6 +40,11 @@
   "scripts": {
     "test": "grunt test"
   },
+   "files": [
+    "dist",
+    "Gruntfile.js",
+    "LICENSE"
+  ],
   "jspm": {
     "main": "dist/query-builder",
     "shim": {
@@ -51,7 +56,6 @@
           "npm:microevent-mistic100@^2.1.0",
           "github:jquery-extendext@^0.1.1"]
       }
-    },
-    "files": ["dist/i18n"]
+    }
   }
 }
