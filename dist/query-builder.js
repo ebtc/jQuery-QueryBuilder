@@ -7,7 +7,7 @@
 // Modules: bt-selectpicker, bt-tooltip-errors, filter-description, loopback-support, mongodb-support, sortable, sql-support
 (function(root, factory) {
     if (typeof define === 'function' && define.amd) {
-        define(['jquery', 'microevent', 'jQuery.extendext'], factory);
+        define(['jquery', 'microevent'], factory);
     }
     else {
         factory(root.jQuery, root.MicroEvent);
