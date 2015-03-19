@@ -7,14 +7,12 @@
     "url": "http://www.strangeplanet.fr"
   },
   "description": "jQuery plugin for user friendly query/filter creator",
-  "main": "dist/query-builder.js",
+  "main": "dist/query-builder.standalone.js",
   "registry": "jspm",
   "dependencies": {
     "jquery": "~1.11",
     "bootstrap": "^3.1.0",
-    "moment": "^2.6.0",
-    "npm:microevent-mistic100": "^2.1.0",
-    "github:mistic100/jQuery.extendext": "^0.1.1"
+    "moment": "^2.6.0"
   },
   "devDependencies": {
     "grunt": "~0.4.5",
