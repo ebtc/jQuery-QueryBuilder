@@ -12,7 +12,7 @@
   "dependencies": {
     "jquery": "~1.11",
     "bootstrap": "^3.1.0",
-    "momentjs": "^2.6.0",
+    "moment": "^2.6.0",
     "npm:microevent-mistic100": "^2.1.0",
     "github:jquery-extendext": "^0.1.1"
   },
