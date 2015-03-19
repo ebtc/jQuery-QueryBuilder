@@ -8,12 +8,13 @@
   },
   "description": "jQuery plugin for user friendly query/filter creator",
   "main": "dist/query-builder.js",
+  "registry": "jspm",
   "dependencies": {
     "jquery": "~1.11",
     "bootstrap": "^3.1.0",
     "momentjs": "^2.6.0",
-    "microevent-mistic100": "^2.1.0",
-    "jquery-extendext": "^0.1.1"
+    "npm:microevent-mistic100": "^2.1.0",
+    "github:jquery-extendext": "^0.1.1"
   },
   "devDependencies": {
     "grunt": "~0.4.5",
