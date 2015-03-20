@@ -16,7 +16,7 @@
     "use strict";
     
     $.extendext = function() {
-    console.log("after extendext");
+
     var options, name, src, copy, copyIsArray, clone,
       target = arguments[0] || {},
       i = 1,
